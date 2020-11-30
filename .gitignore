@@ -1,0 +1,7 @@
+# ignore all text files
+*.txt
+
+#ignore the config file
+config.php
+
+config2.php

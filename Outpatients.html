@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+<head>
+  <title>Outpatients</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!--[if IE 8]>
+<script
+  src="http://code.jquery.com/jquery-1.12.4.js"
+  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+  crossorigin="anonymous"></script>
+<![endif]-->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="styles/workshop-manual.css">
+  <link rel="stylesheet" href="styles/outPatientAccess/main.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse"></nav>
+    
+    <div style="margin-left: 20px; margin-right: 20px;">
+	<div class="panel panel-success">
+		<div class="panel-heading"><span class="glyphicon glyphicon-info-sign"></span> General information</div>
+			<div class="panel-body">
+			<p>This course is designed for learners who need access to outpatients</p>
+				<li>Note that there is a waiting list for staff wanting to go on this course.
+				<li>Make sure when new courses are available to offer the dates to those on the list.</li>
+				<li>Remember to record that offers were made on the student record.</li>
+				<li>For staff members in Andrology, outpatient bookings are made using Healthcare System Wide (?) - training is through the HC1S course
+		and results in HC1 and HCR function access.  This is because the clinics are NOT consultant led (so they act like other non-consultant led
+		contacts such as physiotherapy).
+				<li>OP2 and OPR are often requested at the same time, and you can treat them as one in the same thing. They are part of the Outpatient training, however, users can be granted access if they just need to see reports, but are not actually managing the patients. 
+	
+			</div>
+	</div>
+	
+	
+		<div class="panel panel-success">
+		<div class="panel-heading"><span class="glyphicon glyphicon-info-sign"></span> View-only waiting lists</div>
+			<div class="panel-body">
+				In some cases staff are able to get view-only access via SWO function to see waiting list for various departments.  
+				However, SWO comes with the ability to add patients to a TCI (To Come In) list - so this is tricky and must go through 
+				Clinical Applications. e.g. Adam Haycox
+			</div>
+	</div>
+	
+	<table class="table table-bordered table-responsive table-striped">
+		<thead>
+			<tr>
+				<th>Course Title</th>
+				<th>Course Content</th>
+				<th>Course Length</th>
+				<th>Pre-reqs</th>
+				<th>Function Access</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>OPM1</td>
+				<td>For access to OP2 level 0 read-only functions<br/>Course is no longer taught.<br/>Can be access without training and upon request</td>
+				<td>n/a</td>
+				<td>none</td>
+				<td>CBK, CCE, CEQ, PPA, SCE</td>
+				
+			</tr>
+			<tr>
+				<td>OPM3<br>Referrals and Waiting Lists</td>
+				<td>Adding or editing outpatient referrals on PAS<br>Managing patients on an 
+					outpatient waiting list (excluding booking appointments).
+				</td>
+				
+				<td>09:00 - 14:00<br>
+				<td>PMI1</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>OPM5<br>Managing Appointments</td>
+				<td>Booking/cancelling/re-booking outpatient appointments.<br>Managing appointment outcomes.</td>
+				<td>09:00 - 16:00</td>
+				<td>PMI1</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>OPM7<br>Clinic Management</td>
+				<td>Clinic management - allows you to manage multiple clinics at the same time - as the clinics are running (real time).</td>
+				<td>09:00 - 11:30 (Andrew)<br>or<br>09:30 - 12.00 (Jo)</td>
+				<td>OPM5</td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>ODM/HDM<br>Outpatient/Healthcare<br>Diary Maintenance</td>
+				<td>Managing clinic templates - recurring clinics and ad-hoc clinics.<br>Cancelling and suspending entire clinics.</td>
+				<td>09:00 - 12:00<br>or<br>13:00 - 16:00</td>
+				<td>PMI1<br>Check with trainer</td>
+				<td>ODM/3</td>
+			</tr>
+			<tr>
+				<td>OPM8<br>Reports</td>
+				<td>Now incorporated as part of OPM courses above</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>TOA<br>Take on Appointments</td>
+				<td>Organised (rarely) on an ad-hoc basis<br/>Purpose is to create and manage appointments when post the actual appointment. For example when there has been a walk-in clinic.</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td>OPR</td>
+				<td>A reporting and printing function which allows staff to print off clinic lists.
+					This is granted without specific training when trainees attend the above courses.
+					OPR is granted at level 2.
+					Note that HCR is the equivalent Healthcare tool for this.
+					Note also this is granted at level 3.
+				</td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</tbody>
+
+	</table>
+
+	  <!-- outpatient access widget -->
+	  <div class="panel panel-success">
+		<div class="panel-heading"><span class="glyphicon glyphicon-info-sign"></span>Outpatient Access Guide</div>
+		<!-- <div class="panel-body"> -->
+		<div class="container panel-body">
+		  <div id="prevHeader">Previous course selector</div>
+		  <div id="currHeader">Current course selector</div>
+		  <div id="calcHeader">Calculated course access required via TABS</div>
+  
+		  <div id="prevOPM3" class="prevCourse">OPM3</div>
+		  <div id="prevOPM5" class="prevCourse">OPM5</div>
+		  <div id="prevOPM7" class="prevCourse">OPM7</div>
+  
+		  <div id="currOPM3" class="currCourse">OPM3</div>
+		  <div id="currOPM5" class="currCourse">OPM5</div>
+		  <div id="currOPM7" class="currCourse">OPM7</div>
+		  <div id="calculated"></div>
+	  </div>	
+	  </div>
+	  <!-- </div> -->
+
+<!-- Email/correspondence text-->
+<div class="panel panel-primary">
+	<div class="panel-heading"><span class="glyphicon glyphicon-paperclip"></span> For email</div>
+	<div class="panel-body accordion" id="emailText">
+<p>OPM3:Referrals and Waiting Lists: Adding or editing outpatient referrals on PAS. Managing patients on an outpatient waiting list 
+(excluding booking appointments). 09:00 - 14:00.	
+OPM5: Managing Appointments: Booking/cancelling/re-booking outpatient appointments. Managing appointment outcomes. 09:00 - 16:00. 
+OPM7: Clinic Management: Clinic management - 
+allows you to manage multiple clinics at the same time - as the clinics are running (real time). 09:00 - 11:30. 
+ODM/HDM: Outpatient/Healthcare Diary Maintenance: Managing clinic templates - recurring clinics and ad-hoc clinics. 
+Cancelling and suspending entire clinics. 09:00 - 12:00 or 13:00 - 16:00</p></div>
+
+
+  <button class="btn copyTextBtn">Copy</button>
+  </div>
+
+
+</div>	
+
+<script src="scripts/outPatientAccess/addToArray.js"></script>
+<script src="scripts/outPatientAccess/removeFromArray.js"></script>
+<script src="scripts/outPatientAccess/disableOtherCourse.js"></script>
+<script src="scripts/outPatientAccess/enableOtherCourse.js"></script>
+<script src="scripts/outPatientAccess/calculateAccess.js"></script>
+<script src="scripts/outPatientAccess/disableCourse.js"></script>
+<script src="scripts/outPatientAccess/disableOPM7.js"></script>
+<script src="scripts/outPatientAccess/disableOPM7DOM.js"></script>
+<script src="scripts/outPatientAccess/cleanUpSelected.js"></script>
+<script src="scripts/outPatientAccess/outpatientAccess.js"></script>
+
+<script src="scripts/objects.js"></script>
+<script src="scripts/nav-bar.js"></script>
+<script src="scripts/workshop-manual.js"></script>
+<script>
+
+//console.log("running");
+//objectsTest();
+//testNav();
+//testMain();
+
+</script>
+
+</body>
+</html>
