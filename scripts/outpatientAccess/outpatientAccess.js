@@ -8,10 +8,7 @@ $(document).ready(function(){
     disableOMP7DOM(disableOMP7(prevSelected), disableOMP7(currSelected));
 
     //process click on a course element
-    $('div').click(function(evt) { 
-      //prevent click from being registered twice as this is being picked up on any div element
-      evt.stopPropagation();
-      evt.preventDefault();
+    $('#CalcSelectables > div').click(function(evt) { 
       console.log("CLICK");
 
       var elementSelected = $(this);
