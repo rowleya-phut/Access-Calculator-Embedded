@@ -1,4 +1,4 @@
-const calculateAccess = require('C:\xampp\htdocs\Access-Calculator-Embedded\scripts\outpatientAccess\calculateAccess.js');
+const calculateAccess = require('../scripts/outpatientAccess/calculateAccess.js');
 
 //set up all tests for the disableOPM7 functions
 QUnit.module.only('calculateAccess');
