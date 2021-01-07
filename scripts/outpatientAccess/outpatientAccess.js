@@ -27,16 +27,9 @@ $(document).ready(function(){
       //clean up any anomolous elements that are both selected and disabled
       cleanUpSelected(prevSelected, currSelected);
 
-      
       $("#calculated").text(calculateAccess(prevSelected, currSelected));
       
       //console.log("PRevious courses selected: " + prevSelected);
       //console.log("Current courses selected: " + currSelected);
-      
-
-
     });   
-
-    
-
   });

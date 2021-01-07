@@ -1,0 +1,17 @@
+{
+  "name": "access-calculator",
+  "version": "1.0.0",
+  "description": "Simple widget to allow staff to ascertain training access after an outpatient course",
+  "main": "outpatientAccess.html",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "qunit"
+  },
+  "author": "Andrew Rowley",
+  "license": "ISC",
+  "devDependencies": {
+    "qunit": "^2.11.3"
+  }
+}
